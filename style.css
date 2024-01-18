@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    display: flex;
+    padding: 0%;
+    min-height:95vh;
+    
+  }
+
+  .userform {
+    background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    padding: 30px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+    color: #ffffff;
+  }
+
+  .userform h2 {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 5px;
+    width: 90%;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  select,
+  input[type="number"] {
+    width: 100%;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    color: #080808;
+  }
+
+   select {
+    height: 34px;
+    width: 50%;
+  } 
+
+  button[type="submit"] {
+    background-color: #fffcfc;
+    color: #000000;
+    border:none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #000000;
+    color: #fffefe;
+  } 
+  .userdata{
+    color: #fffcfc;
+    margin-top: 50px;
+    margin-left: 300px;
+    background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    padding: 30px;
+    width: 500px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+    text-align: center; 
+    cursor: pointer;  
+  }
+  table {
+    color: #000000;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  th {
+    background-color: #ffffff;
+  }
+
+  tr:nth-child(even) {
+    background-color: #fffefe;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+  tbody{
+    color: black;
+    background-color: #fffdfd;
+    padding: 10px;
+    border: 1px solid #000000
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .userform {
+      width: 80%; 
+      margin: 20px;
+    }
+  
+    .userdata {
+      width: 80%;
+      margin: 20px;
+    }
+  
+    table {
+      font-size: 14px; 
+    }
+  }
+  
+  
+  
+  
